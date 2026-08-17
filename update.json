@@ -1,0 +1,10 @@
+{
+  "version": "2026.8.17",
+  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.8.17/UC_PACS_2026.8.17_Setup.exe",
+  "checksum": "sha256:bc281cee8614bf4ecd07f9006b555346e315bc7412524dd0ea4a5847d37ee94f",
+  "release_notes": "The Settings window has been rebuilt, with a plain-English explanation available for every setting. Doctors can now have their own studies downloaded ahead of them so they open faster. Plus a number of fixes to backups, security and reliability.",
+  "required": false,
+  "stable": true,
+  "schema": "1.0",
+  "history": []
+}
