@@ -1,10 +1,19 @@
 {
-  "version": "2026.8.17",
-  "download_url": "",
-  "checksum": "",
-  "release_notes": "This version has been withdrawn. A newer one is on the way.",
+  "version": "2026.8.18b",
+  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.8.18b/UC_PACS_2026.8.18b_Setup.exe",
+  "checksum": "sha256:d9b7cf5267cdec26ed21b2e0bf24b1e480e13db1b61898ecafe0674d9e7a365b",
+  "release_notes": "UC PACS now checks its licence key with us when it is set up, and won't finish setup with a key we don't recognise.\n\nIt now signs you out properly when the computer is left sitting idle. Before, it warned you that it would and then stayed open.\n\nPulling the text out of a scanned report works again.\n\nYour clinic name can now be filled in automatically on scans that arrive without one. Turn it on under Settings, System, Clinic Defaults.\n\nThe download is around half the size it used to be.",
   "required": false,
-  "stable": false,
+  "stable": true,
   "schema": "1.0",
-  "history": []
+  "history": [
+    {
+      "version": "2026.8.17",
+      "download_url": "",
+      "checksum": "",
+      "release_notes": "This version has been withdrawn. A newer one is on the way.",
+      "stable": false,
+      "schema": "1.0"
+    }
+  ]
 }
