@@ -1,12 +1,20 @@
 {
-  "version": "2026.9.23b",
-  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23b/UC_PACS_2026.9.23b_Setup.exe",
-  "checksum": "sha256:90564bfeb245d2e2c518ec753573d1f70c2e14db80cfd56c0a4b3bb31edfcfc1",
-  "release_notes": "Updating is smoother. UC PACS now reopens by itself when an update finishes, and the update no longer stops partway to ask you to close programs.\n\nGoing back to an earlier version works again. Before, it stopped with \"Couldn't back up your database.\"\n\nThe notes in this update window are now easy to read in dark mode.\n\nThe study list now always fills the width of the window. Its columns grow and shrink with the window, so there is no empty space on the right and no sideways scrolling.\n\nAdmins can now save the study list as a spreadsheet.\n\nUninstalling now asks about each item before removing it, and no longer leaves an empty folder behind.\n\nThe download is a little smaller than before.",
+  "version": "2026.9.23c",
+  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23c/UC_PACS_2026.9.23c_Setup.exe",
+  "checksum": "sha256:d31f9a0eea31a50c8e1fe316c0d548b9ddca05fbf5d2cd82df0a62d356546d50",
+  "release_notes": "Updating is smoother. UC PACS now reopens by itself when an update finishes, and the update no longer stops partway to ask you to close programs.\n\nGoing back to an earlier version works again, and now installs and reopens by itself, just like an update. Before, it stopped with \"Couldn't back up your database.\"\n\nThe notes in this update window are now easy to read in dark mode.\n\nThe study list now always fills the width of the window. Its columns grow and shrink with the window, so there is no empty space on the right and no sideways scrolling.\n\nAdmins can now save the study list as a spreadsheet.\n\nUninstalling now asks about each item before removing it, and no longer leaves an empty folder behind.\n\nThe download is a little smaller than before.",
   "required": false,
   "stable": true,
   "schema": "1.0",
   "history": [
+    {
+      "version": "2026.9.23b",
+      "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23b/UC_PACS_2026.9.23b_Setup.exe",
+      "checksum": "sha256:90564bfeb245d2e2c518ec753573d1f70c2e14db80cfd56c0a4b3bb31edfcfc1",
+      "release_notes": "Updating is smoother. UC PACS now reopens by itself when an update finishes, and the update no longer stops partway to ask you to close programs.\n\nGoing back to an earlier version works again. Before, it stopped with \"Couldn't back up your database.\"\n\nThe notes in this update window are now easy to read in dark mode.\n\nThe study list now always fills the width of the window. Its columns grow and shrink with the window, so there is no empty space on the right and no sideways scrolling.\n\nAdmins can now save the study list as a spreadsheet.\n\nUninstalling now asks about each item before removing it, and no longer leaves an empty folder behind.\n\nThe download is a little smaller than before.",
+      "stable": true,
+      "schema": "1.0"
+    },
     {
       "version": "2026.9.23",
       "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23/UC_PACS_2026.9.23_Setup.exe",
