@@ -1,12 +1,20 @@
 {
-  "version": "2026.8.18b",
-  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.8.18b/UC_PACS_2026.8.18b_Setup.exe",
-  "checksum": "sha256:d9b7cf5267cdec26ed21b2e0bf24b1e480e13db1b61898ecafe0674d9e7a365b",
-  "release_notes": "UC PACS now checks its licence key with us when it is set up, and won't finish setup with a key we don't recognise.\n\nIt now signs you out properly when the computer is left sitting idle. Before, it warned you that it would and then stayed open.\n\nPulling the text out of a scanned report works again.\n\nYour clinic name can now be filled in automatically on scans that arrive without one. Turn it on under Settings, System, Clinic Defaults.\n\nThe download is around half the size it used to be.",
+  "version": "2026.9.23",
+  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23/UC_PACS_2026.9.23_Setup.exe",
+  "checksum": "sha256:0d0583410e6b36ee91756ab31258afd2e313b1379e99f45b29b84d926d544536",
+  "release_notes": "The study list now always fills the width of the window. Its columns grow and shrink with the window, so there is no empty space on the right and no sideways scrolling.\n\nAdmins can now save the study list as a spreadsheet.\n\nUninstalling now asks about each item before removing it, and no longer leaves an empty folder behind.\n\nThe download is a little smaller than before.",
   "required": false,
   "stable": true,
   "schema": "1.0",
   "history": [
+    {
+      "version": "2026.8.18b",
+      "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.8.18b/UC_PACS_2026.8.18b_Setup.exe",
+      "checksum": "sha256:d9b7cf5267cdec26ed21b2e0bf24b1e480e13db1b61898ecafe0674d9e7a365b",
+      "release_notes": "UC PACS now checks its licence key with us when it is set up, and won't finish setup with a key we don't recognise.\n\nIt now signs you out properly when the computer is left sitting idle. Before, it warned you that it would and then stayed open.\n\nPulling the text out of a scanned report works again.\n\nYour clinic name can now be filled in automatically on scans that arrive without one. Turn it on under Settings, System, Clinic Defaults.\n\nThe download is around half the size it used to be.",
+      "stable": true,
+      "schema": "1.0"
+    },
     {
       "version": "2026.8.17",
       "download_url": "",
