@@ -1,12 +1,20 @@
 {
-  "version": "2026.9.23c",
-  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23c/UC_PACS_2026.9.23c_Setup.exe",
-  "checksum": "sha256:d31f9a0eea31a50c8e1fe316c0d548b9ddca05fbf5d2cd82df0a62d356546d50",
-  "release_notes": "Updating is smoother. UC PACS now reopens by itself when an update finishes, and the update no longer stops partway to ask you to close programs.\n\nGoing back to an earlier version works again, and now installs and reopens by itself, just like an update. Before, it stopped with \"Couldn't back up your database.\"\n\nThe notes in this update window are now easy to read in dark mode.\n\nThe study list now always fills the width of the window. Its columns grow and shrink with the window, so there is no empty space on the right and no sideways scrolling.\n\nAdmins can now save the study list as a spreadsheet.\n\nUninstalling now asks about each item before removing it, and no longer leaves an empty folder behind.\n\nThe download is a little smaller than before.",
+  "version": "2026.9.30",
+  "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.30/UC_PACS_2026.9.30_Setup.exe",
+  "checksum": "sha256:897f1b911915937a759e4f233c37ebd769cb16948837ed2d933b4d672f007ce3",
+  "release_notes": "- Settings has a new Help tab with a Quick Start Guide, the full User Manual, the License Agreement and the Privacy Policy.\n- Opening a study in the Stone Web Viewer no longer asks for the image server's username and password.\n- Signing out now closes UC PACS's open windows, so no patient information is left on the screen.\n- Error messages now say plainly what went wrong, and ones that send you to Settings name the exact page.\n- On workstations, typing in the search box keeps up, and opening or saving notes no longer locks up the window.\n- Dragging files onto UC PACS to import them now asks which patient they belong to.\n- Extract Impressions works again, and it now follows the impressions onto the next page of a report.\n- CBCT scans now pick up the patient's account number from the scanner's folder name.\n- New users see patient names as Last, First with normal capitalization.\n- Updating no longer stops partway with an error while the image server is running.\n- When setting up a new server, downloading and installing the image server now works reliably, and it starts quietly in the background with the right settings.\n- Uninstalling UC PACS from the server computer can also remove the image server and its images. Both are off unless you choose them.\n- Settings tables now fill their space, and passwords are checked as you type.\n- Several windows were tidied up, including Deleted Studies, the due date calendar and Reviews.",
   "required": false,
   "stable": true,
   "schema": "1.0",
   "history": [
+    {
+      "version": "2026.9.23c",
+      "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23c/UC_PACS_2026.9.23c_Setup.exe",
+      "checksum": "sha256:d31f9a0eea31a50c8e1fe316c0d548b9ddca05fbf5d2cd82df0a62d356546d50",
+      "release_notes": "Updating is smoother. UC PACS now reopens by itself when an update finishes, and the update no longer stops partway to ask you to close programs.\n\nGoing back to an earlier version works again, and now installs and reopens by itself, just like an update. Before, it stopped with \"Couldn't back up your database.\"\n\nThe notes in this update window are now easy to read in dark mode.\n\nThe study list now always fills the width of the window. Its columns grow and shrink with the window, so there is no empty space on the right and no sideways scrolling.\n\nAdmins can now save the study list as a spreadsheet.\n\nUninstalling now asks about each item before removing it, and no longer leaves an empty folder behind.\n\nThe download is a little smaller than before.",
+      "stable": true,
+      "schema": "1.0"
+    },
     {
       "version": "2026.9.23b",
       "download_url": "https://github.com/grungenut/uc-pacs-releases/releases/download/v2026.9.23b/UC_PACS_2026.9.23b_Setup.exe",
